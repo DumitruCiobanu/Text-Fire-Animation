@@ -1,0 +1,33 @@
+body {
+  background: #000;
+}
+
+.wrapper {
+  width: 500px;
+  margin: 250px auto 0;
+}
+
+h2 {
+  color: #fff;
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+span {
+  display: block;
+  background-image: url(images/fireball-g252730ba7_1920.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: fire 5s linear infinite;
+  -webkit-backface-visibility: hidden;
+}
+
+@keyframes fire {
+  0% {
+    background-position: 0% -50%;
+  }
+  0% {
+    background-position: 100% -50%;
+  }
+}
